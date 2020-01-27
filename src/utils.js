@@ -1,4 +1,5 @@
 export const filterById = (id, posts) => {
+  console.log(posts)
   return posts;
 };
 
