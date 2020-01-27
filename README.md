@@ -1,2 +1,0 @@
-# Arrays
-Created with CodeSandbox
