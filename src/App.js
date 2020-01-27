@@ -16,8 +16,8 @@ export default function App() {
   return (
     <>
       <label>Search by ID</label>
-      <Input value={value} set />
-      {utils.filterById(5, posts).map(el => (
+      <Input value={value} cb={setValue} />
+      {utils.filterById(value, posts).map(el => (
         <Post {...el} />
       ))}
     </>
